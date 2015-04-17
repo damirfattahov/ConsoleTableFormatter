@@ -17,9 +17,3 @@ foreach ($data as $item) {
 	echo $formatter->getRow($item);
 	echo count($data) - 1 === $i ++ ? $formatter->getTableLine() : false;
 }
-
-
-
-
-
-
